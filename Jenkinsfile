@@ -6,18 +6,19 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
-                  stage('yyyy') {
+    stage('yyyy') {
             steps {
                 echo 'Hello World'
             }
-                            stage('jjj') {
+    stage('jjj') {
             steps {
                 echo 'Hello World'
             }
         }
-          stage('uu') {
+    stage('uu') {
             steps {
                 echo 'Hello World'
             }
+    }
     }
 }
